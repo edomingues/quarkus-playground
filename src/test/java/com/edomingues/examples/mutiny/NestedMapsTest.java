@@ -1,4 +1,4 @@
-package com.edomingues.examples;
+package com.edomingues.examples.mutiny;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
@@ -7,6 +7,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
+import java.util.concurrent.Flow;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
